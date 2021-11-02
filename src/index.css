@@ -1,6 +1,6 @@
 .mountNode > div {
   border: 1px solid #ccc;
-  margin: 5.5vw;
+  margin: 1.5vw;
   padding: 1em;
 }
 
@@ -17,4 +17,41 @@ button {
   border: 1px solid #ccc;
   margin: 1vw 1.25vw;
   padding: 1em;
+}
+
+/* Nerdy secret: You can use "less" below! Don't tell anybody... */
+
+.github-profile {
+	margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 12px;
+  
+}
+
+img {
+  width: 75px;
+}
+.name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+form {
+	border: thin solid #ddd;
+  background-color: #fbfbfb;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+	text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
