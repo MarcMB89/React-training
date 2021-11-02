@@ -1,12 +1,10 @@
 import React from "react";
 
-import testData from "../../mocks/GitHubMock";
-
 const CardList = (props) => {
 
     return (
         <>
-        {testData.map(profileProp => <Card {...profileProp}/>)};
+        {props.profiles.map(profile => <Card key={profile.id} {...profile}/>)}
         </>
     )
 }
