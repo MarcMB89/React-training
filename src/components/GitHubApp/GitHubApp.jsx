@@ -1,5 +1,4 @@
 import React from "react";
-import "../GitHubApp/GitHubApp.css";
 
 class GitHubApp extends React.Component {
 
