@@ -1,12 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-import IncrementButton from "./components/IncrementButton";
-import DecrementButton from "./components/DecrementButton";
-import Display from "./components/Display";
-import TimeCounter from "./components/TimeCounter.jsx";
-import HelloHTML from "./components/HelloHTML";
-import GithubApp from "./components/GitHubApp/GitHubClass";
+import IncrementButton from "./components/Counter/IncrementButton";
+import DecrementButton from "./components/Counter/DecrementButton";
+import Display from "./components/Counter/Display";
+import TimeCounter from "./components/Time/TimeCounter.jsx";
+import HelloHTML from "./components/Time/HelloHTML";
+import GithubApp from "../src/components/GitHubApp/GitHubApp";
+import CardList from "./components/GitHubApp/Card";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -28,6 +29,7 @@ function App() {
       <HelloHTML />
       <TimeCounter />
       <GithubApp title="The GitHub Cards App"/>
+      <CardList />
       
   </div>
   
