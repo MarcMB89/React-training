@@ -1,12 +1,12 @@
 import React from "react";
-import utils from "./utils/utils";
+import utils from "../../utils/utils";
 
-const DisplayStars = props => (
-<>
-    {utils.range(1, props.count).map(starId => 
+const StarsDisplay = props => (
+    <>
+      {utils.range(1, props.count).map(starId => (
         <div key={starId} className="star" />
-    )}
-</>
-)
+      ))}
+    </>
+  );
 
-export default DisplayStars;
+export default StarsDisplay;
