@@ -7,7 +7,7 @@ import Display from "./components/Counter/Display";
 import TimeCounter from "./components/Time/TimeCounter.jsx";
 import HelloHTML from "./components/Time/HelloHTML";
 import GithubApp from "../src/components/GitHubApp/GitHubApp";
-import StarGame from "../src/components/StarGame/StarGame";
+import StarGame from "../src/components/StarGame/StarMatch";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -30,7 +30,6 @@ function App() {
         <TimeCounter />
         <GithubApp title="The GitHub Cards App"/>
         <StarGame />
-        
     </div>
   
   )
