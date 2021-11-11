@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React from "react";
 import PlayNumber from "./PlayNumber";
 import DisplayStars from "./DisplayStars";
 import PlayAgain from "./PlayAgain";
@@ -75,11 +75,5 @@ const Game = props => {
   );
 };
 
-const StarMatch = () => {
-	const [gameId, setGameId] = useState(1);
-	return <Game key={gameId} startNewGame={() => setGameId(gameId + 1)}/>;
-}
-
-
-export default StarMatch;
+export default Game;
   
